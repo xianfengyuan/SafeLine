@@ -48,14 +48,14 @@ docker run -d \
   -e SAFELINE_ADDRESS="https://your.safeline.com" \
   -e LISTEN_PORT=5678 \
   -e LISTEN_ADDRESS="0.0.0.0" \
-  chaitin/safeline-mcp:latest
+  xianfengyuan/safeline-mcp:latest
 ```
 
 #### Method 2: Using docker-compose
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/chaitin/safeline-mcp.git
+git clone https://github.com/xianfengyuan/safeline-mcp.git
 cd safeline-mcp
 
 # 2. Edit docker-compose.yml to configure environment variables
@@ -63,7 +63,7 @@ cd safeline-mcp
 # version: '3'
 # services:
 #   mcp:
-#     image: chaitin/safeline-mcp:latest
+#     image: xianfengyuan/safeline-mcp:latest
 #     container_name: safeline-mcp
 #     ports:
 #       - "5678:5678"
@@ -81,7 +81,7 @@ docker compose -f docker-compose.yml up -d
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/chaitin/SafeLine.git
+git clone https://github.com/xianfengyuan/SafeLine.git
 cd safeline-mcp
 
 # 2. Install dependencies
@@ -95,7 +95,7 @@ cp config.yaml.example config.yaml
 go run main.go
 ```
 
-For more API details, please refer to the [API Documentation](https://master.safeline-ce.staging.dev.in.chaitin.net:9443/swagger/index.html#).
+For more API details, please refer to the [API Documentation](https://master.safeline-ce.staging.dev.in.xianfengyuan.net:9443/swagger/index.html#).
 
 ## Tools
 

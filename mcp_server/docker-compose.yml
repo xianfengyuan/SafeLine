@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   mcp_server:
-    image: chaitin/safeline-mcp:latest
+    image: xianfengyuan/safeline-mcp:latest
     container_name: mcp_server
     restart: always
     ports:

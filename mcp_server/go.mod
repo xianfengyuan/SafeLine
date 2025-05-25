@@ -1,4 +1,4 @@
-module github.com/chaitin/SafeLine/mcp_server
+module github.com/xianfengyuan/SafeLine/mcp_server
 
 go 1.24.1
 
