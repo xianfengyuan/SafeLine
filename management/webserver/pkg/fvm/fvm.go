@@ -26,8 +26,8 @@ import (
 	"net/url"
 	"unsafe"
 
-	"chaitin.cn/dev/go/errors"
-	"chaitin.cn/dev/go/log"
+	"xianfengyuan.cn/dev/go/errors"
+	"xianfengyuan.cn/dev/go/log"
 )
 
 // Constant for Output

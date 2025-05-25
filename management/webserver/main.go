@@ -13,17 +13,17 @@ import (
 	"github.com/gin-contrib/sessions/cookie"
 	"github.com/gin-gonic/gin"
 
-	"chaitin.cn/patronus/safeline-2/management/webserver/api"
-	"chaitin.cn/patronus/safeline-2/management/webserver/cmd"
-	"chaitin.cn/patronus/safeline-2/management/webserver/middleware"
-	"chaitin.cn/patronus/safeline-2/management/webserver/model"
-	"chaitin.cn/patronus/safeline-2/management/webserver/pkg/config"
-	"chaitin.cn/patronus/safeline-2/management/webserver/pkg/constants"
-	"chaitin.cn/patronus/safeline-2/management/webserver/pkg/cron"
-	"chaitin.cn/patronus/safeline-2/management/webserver/pkg/database"
-	"chaitin.cn/patronus/safeline-2/management/webserver/pkg/fvm"
-	"chaitin.cn/patronus/safeline-2/management/webserver/pkg/log"
-	"chaitin.cn/patronus/safeline-2/management/webserver/rpc"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/api"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/cmd"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/middleware"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/model"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/pkg/config"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/pkg/constants"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/pkg/cron"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/pkg/database"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/pkg/fvm"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/pkg/log"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/rpc"
 )
 
 var (

@@ -12,10 +12,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"chaitin.cn/patronus/safeline-2/management/tcontrollerd/model"
-	"chaitin.cn/patronus/safeline-2/management/tcontrollerd/pkg/ngcmd"
-	pb "chaitin.cn/patronus/safeline-2/management/tcontrollerd/proto/website"
-	"chaitin.cn/patronus/safeline-2/management/tcontrollerd/utils"
+	"xianfengyuan.cn/patronus/safeline-2/management/tcontrollerd/model"
+	"xianfengyuan.cn/patronus/safeline-2/management/tcontrollerd/pkg/ngcmd"
+	pb "xianfengyuan.cn/patronus/safeline-2/management/tcontrollerd/proto/website"
+	"xianfengyuan.cn/patronus/safeline-2/management/tcontrollerd/utils"
 )
 
 const (

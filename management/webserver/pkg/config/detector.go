@@ -1,7 +1,7 @@
 package config
 
 import (
-	"chaitin.cn/dev/go/settings"
+	"xianfengyuan.cn/dev/go/settings"
 )
 
 type DetectorConfig struct {

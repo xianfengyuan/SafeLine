@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"time"
 
-	"chaitin.cn/patronus/safeline-2/management/webserver/pkg/constants"
-	"chaitin.cn/patronus/safeline-2/management/webserver/utils"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/pkg/constants"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/utils"
 )
 
 type WebsiteResult struct {

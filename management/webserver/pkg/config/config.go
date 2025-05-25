@@ -3,7 +3,7 @@ package config
 import (
 	"os"
 
-	"chaitin.cn/dev/go/settings"
+	"xianfengyuan.cn/dev/go/settings"
 )
 
 var (

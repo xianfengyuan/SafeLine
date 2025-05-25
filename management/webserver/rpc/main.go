@@ -6,10 +6,10 @@ import (
 
 	"google.golang.org/grpc"
 
-	"chaitin.cn/dev/go/errors"
-	"chaitin.cn/dev/go/log"
-	"chaitin.cn/patronus/safeline-2/management/webserver/pkg/config"
-	pb "chaitin.cn/patronus/safeline-2/management/webserver/proto/website"
+	"xianfengyuan.cn/dev/go/errors"
+	"xianfengyuan.cn/dev/go/log"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/pkg/config"
+	pb "xianfengyuan.cn/patronus/safeline-2/management/webserver/proto/website"
 )
 
 const (

@@ -4,7 +4,7 @@ import (
 	"net/url"
 	"os"
 
-	"chaitin.cn/dev/go/settings"
+	"xianfengyuan.cn/dev/go/settings"
 )
 
 type DBConfig struct {

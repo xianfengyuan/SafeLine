@@ -6,9 +6,9 @@ import (
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"
 
-	"chaitin.cn/dev/go/errors"
-	"chaitin.cn/patronus/safeline-2/management/webserver/pkg/constants"
-	"chaitin.cn/patronus/safeline-2/management/webserver/pkg/database"
+	"xianfengyuan.cn/dev/go/errors"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/pkg/constants"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/pkg/database"
 )
 
 type PolicyGroup map[string]string

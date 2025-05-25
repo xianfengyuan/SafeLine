@@ -3,7 +3,7 @@ package model
 import (
 	"strings"
 
-	"chaitin.cn/dev/go/errors"
+	"xianfengyuan.cn/dev/go/errors"
 	"gorm.io/gorm"
 )
 

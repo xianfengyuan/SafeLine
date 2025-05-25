@@ -1,9 +1,9 @@
 package fvm
 
 import (
-	"chaitin.cn/dev/go/errors"
-	"chaitin.cn/patronus/safeline-2/management/webserver/pkg/config"
-	"chaitin.cn/patronus/safeline-2/management/webserver/utils"
+	"xianfengyuan.cn/dev/go/errors"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/pkg/config"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/utils"
 )
 
 var GlobalFVM *FVM

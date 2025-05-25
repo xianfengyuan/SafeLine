@@ -8,20 +8,20 @@ import (
 	"strconv"
 	"strings"
 
-	"chaitin.cn/dev/go/errors"
+	"xianfengyuan.cn/dev/go/errors"
 
-	"chaitin.cn/patronus/safeline-2/management/webserver/pkg"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/pkg"
 
 	"github.com/gin-gonic/gin"
 
-	"chaitin.cn/dev/go/log"
+	"xianfengyuan.cn/dev/go/log"
 
-	"chaitin.cn/patronus/safeline-2/management/webserver/api/response"
-	"chaitin.cn/patronus/safeline-2/management/webserver/model"
-	"chaitin.cn/patronus/safeline-2/management/webserver/pkg/config"
-	"chaitin.cn/patronus/safeline-2/management/webserver/pkg/constants"
-	"chaitin.cn/patronus/safeline-2/management/webserver/pkg/database"
-	"chaitin.cn/patronus/safeline-2/management/webserver/utils"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/api/response"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/model"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/pkg/config"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/pkg/constants"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/pkg/database"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/utils"
 )
 
 type (

@@ -5,16 +5,16 @@ import (
 	"net/http"
 	"strconv"
 
-	"chaitin.cn/dev/go/errors"
+	"xianfengyuan.cn/dev/go/errors"
 
 	"github.com/gin-gonic/gin"
 	"gorm.io/gorm"
 
-	"chaitin.cn/patronus/safeline-2/management/webserver/api/response"
-	"chaitin.cn/patronus/safeline-2/management/webserver/model"
-	"chaitin.cn/patronus/safeline-2/management/webserver/pkg/config"
-	"chaitin.cn/patronus/safeline-2/management/webserver/pkg/database"
-	"chaitin.cn/patronus/safeline-2/management/webserver/rpc"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/api/response"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/model"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/pkg/config"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/pkg/database"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/rpc"
 )
 
 func publishWebsiteConfig(website *model.Website) error {

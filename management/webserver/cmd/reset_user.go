@@ -1,8 +1,8 @@
 package cmd
 
 import (
-	"chaitin.cn/patronus/safeline-2/management/webserver/model"
-	"chaitin.cn/patronus/safeline-2/management/webserver/pkg/database"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/model"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/pkg/database"
 )
 
 func ResetUser(username string) {

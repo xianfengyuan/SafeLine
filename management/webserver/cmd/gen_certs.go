@@ -4,9 +4,9 @@ import (
 	"crypto/x509/pkix"
 	"path/filepath"
 
-	"chaitin.cn/patronus/safeline-2/management/webserver/pkg/config"
-	"chaitin.cn/patronus/safeline-2/management/webserver/pkg/constants"
-	"chaitin.cn/patronus/safeline-2/management/webserver/utils"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/pkg/config"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/pkg/constants"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/utils"
 )
 
 func GenCerts() error {

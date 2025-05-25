@@ -8,9 +8,9 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"chaitin.cn/dev/go/log"
-	"chaitin.cn/patronus/safeline-2/management/tcontrollerd/pkg/config"
-	"chaitin.cn/patronus/safeline-2/management/tcontrollerd/utils"
+	"xianfengyuan.cn/dev/go/log"
+	"xianfengyuan.cn/patronus/safeline-2/management/tcontrollerd/pkg/config"
+	"xianfengyuan.cn/patronus/safeline-2/management/tcontrollerd/utils"
 )
 
 func GetLogger(name string) *log.Logger {
@@ -89,7 +89,7 @@ func (h *RuntimeHook) Fire(entry *logrus.Entry) error {
 		// A fixed number of pcs can expand to an indefinite number of Frames.
 		for {
 			frame, more := frames.Next()
-			if !strings.Contains(frame.File, "github.com/sirupsen/logrus") && !strings.Contains(frame.Function, "chaitin.cn/dev/go") {
+			if !strings.Contains(frame.File, "github.com/sirupsen/logrus") && !strings.Contains(frame.Function, "xianfengyuan.cn/dev/go") {
 				file = frame.File
 				funcName = frame.Function
 				line = frame.Line
@@ -104,7 +104,7 @@ func (h *RuntimeHook) Fire(entry *logrus.Entry) error {
 	slices := strings.Split(file, "/")
 	file = slices[len(slices)-1]
 
-	funcName = strings.ReplaceAll(funcName, "chaitin.cn", "")
+	funcName = strings.ReplaceAll(funcName, "xianfengyuan.cn", "")
 
 	entry.Data["file"] = file
 	entry.Data["func"] = funcName

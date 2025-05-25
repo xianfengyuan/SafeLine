@@ -6,11 +6,11 @@ import (
 	"strings"
 	"time"
 
-	"chaitin.cn/dev/go/errors"
+	"xianfengyuan.cn/dev/go/errors"
 
-	"chaitin.cn/patronus/safeline-2/management/webserver/pkg/constants"
-	"chaitin.cn/patronus/safeline-2/management/webserver/pkg/database"
-	"chaitin.cn/patronus/safeline-2/management/webserver/utils"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/pkg/constants"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/pkg/database"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/utils"
 )
 
 // DetectLog is designed to be used in response, not a good naming.

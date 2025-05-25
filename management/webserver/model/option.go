@@ -7,12 +7,12 @@ import (
 
 	"gorm.io/gorm/clause"
 
-	"chaitin.cn/patronus/safeline-2/management/webserver/pkg/config"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/pkg/config"
 
-	"chaitin.cn/patronus/safeline-2/management/webserver/pkg"
-	"chaitin.cn/patronus/safeline-2/management/webserver/pkg/constants"
-	"chaitin.cn/patronus/safeline-2/management/webserver/pkg/database"
-	"chaitin.cn/patronus/safeline-2/management/webserver/utils"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/pkg"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/pkg/constants"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/pkg/database"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/utils"
 )
 
 type Options struct {

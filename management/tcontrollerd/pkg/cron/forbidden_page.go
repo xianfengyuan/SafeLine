@@ -5,8 +5,8 @@ import (
 	"encoding/hex"
 	"io/ioutil"
 
-	"chaitin.cn/patronus/safeline-2/management/tcontrollerd/pkg/constants"
-	"chaitin.cn/patronus/safeline-2/management/tcontrollerd/utils"
+	"xianfengyuan.cn/patronus/safeline-2/management/tcontrollerd/pkg/constants"
+	"xianfengyuan.cn/patronus/safeline-2/management/tcontrollerd/utils"
 )
 
 const (

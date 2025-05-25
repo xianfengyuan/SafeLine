@@ -5,10 +5,10 @@ import (
 	"io"
 	"time"
 
-	"chaitin.cn/dev/go/errors"
-	"chaitin.cn/patronus/safeline-2/management/webserver/model"
-	"chaitin.cn/patronus/safeline-2/management/webserver/pkg/database"
-	pb "chaitin.cn/patronus/safeline-2/management/webserver/proto/website"
+	"xianfengyuan.cn/dev/go/errors"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/model"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/pkg/database"
+	pb "xianfengyuan.cn/patronus/safeline-2/management/webserver/proto/website"
 )
 
 var (

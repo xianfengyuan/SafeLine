@@ -7,14 +7,14 @@ import (
 
 	"gorm.io/gorm"
 
-	"chaitin.cn/patronus/safeline-2/management/webserver/pkg/database"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/pkg/database"
 
-	"chaitin.cn/patronus/safeline-2/management/webserver/pkg/config"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/pkg/config"
 
-	"chaitin.cn/dev/go/errors"
-	"chaitin.cn/dev/go/log"
-	"chaitin.cn/patronus/safeline-2/management/webserver/model"
-	"chaitin.cn/patronus/safeline-2/management/webserver/pkg/fvm/fsl"
+	"xianfengyuan.cn/dev/go/errors"
+	"xianfengyuan.cn/dev/go/log"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/model"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/pkg/fvm/fsl"
 )
 
 const (

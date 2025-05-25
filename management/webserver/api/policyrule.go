@@ -3,16 +3,16 @@ package api
 import (
 	"net/http"
 
-	"chaitin.cn/patronus/safeline-2/management/webserver/pkg/fvm"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/pkg/fvm"
 
 	"github.com/gin-gonic/gin"
 	"gorm.io/gorm"
 
-	"chaitin.cn/dev/go/errors"
+	"xianfengyuan.cn/dev/go/errors"
 
-	"chaitin.cn/patronus/safeline-2/management/webserver/api/response"
-	"chaitin.cn/patronus/safeline-2/management/webserver/model"
-	"chaitin.cn/patronus/safeline-2/management/webserver/pkg/database"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/api/response"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/model"
+	"xianfengyuan.cn/patronus/safeline-2/management/webserver/pkg/database"
 )
 
 type putSwitchRequest struct {
