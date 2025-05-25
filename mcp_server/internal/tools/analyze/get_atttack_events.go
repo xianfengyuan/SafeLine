@@ -40,6 +40,6 @@ func (t *GetAttackEvents) Execute(ctx context.Context, params GetAttackEventsPar
 	if err != nil {
 		return analyze.GetEventListResponse{}, err
 	}
-	logger.With("total:   ", resp.Total).Info("get attack events")
+	logger.With("total: ", resp.Total).Info("get attack events")
 	return *resp, nil
 }
