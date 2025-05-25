@@ -4,11 +4,11 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/chaitin/SafeLine/mcp_server/internal/api"
-	"github.com/chaitin/SafeLine/mcp_server/internal/config"
-	"github.com/chaitin/SafeLine/mcp_server/internal/tools"
-	"github.com/chaitin/SafeLine/mcp_server/pkg/logger"
-	"github.com/chaitin/SafeLine/mcp_server/pkg/mcp"
+	"github.com/xianfengyuan/SafeLine/mcp_server/internal/api"
+	"github.com/xianfengyuan/SafeLine/mcp_server/internal/config"
+	"github.com/xianfengyuan/SafeLine/mcp_server/internal/tools"
+	"github.com/xianfengyuan/SafeLine/mcp_server/pkg/logger"
+	"github.com/xianfengyuan/SafeLine/mcp_server/pkg/mcp"
 )
 
 func main() {

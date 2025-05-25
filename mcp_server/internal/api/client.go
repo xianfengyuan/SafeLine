@@ -10,8 +10,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/chaitin/SafeLine/mcp_server/pkg/errors"
-	"github.com/chaitin/SafeLine/mcp_server/pkg/logger"
+	"github.com/xianfengyuan/SafeLine/mcp_server/pkg/errors"
+	"github.com/xianfengyuan/SafeLine/mcp_server/pkg/logger"
 )
 
 // Client API client

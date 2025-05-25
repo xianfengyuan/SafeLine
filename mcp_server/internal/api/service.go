@@ -5,9 +5,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chaitin/SafeLine/mcp_server/internal/config"
-	"github.com/chaitin/SafeLine/mcp_server/pkg/errors"
-	"github.com/chaitin/SafeLine/mcp_server/pkg/logger"
+	"github.com/xianfengyuan/SafeLine/mcp_server/internal/config"
+	"github.com/xianfengyuan/SafeLine/mcp_server/pkg/errors"
+	"github.com/xianfengyuan/SafeLine/mcp_server/pkg/logger"
 )
 
 // APIClient API client implementation

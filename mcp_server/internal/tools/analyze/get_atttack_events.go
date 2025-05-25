@@ -3,8 +3,8 @@ package analyze
 import (
 	"context"
 
-	"github.com/chaitin/SafeLine/mcp_server/internal/api/analyze"
-	"github.com/chaitin/SafeLine/mcp_server/pkg/logger"
+	"github.com/xianfengyuan/SafeLine/mcp_server/internal/api/analyze"
+	"github.com/xianfengyuan/SafeLine/mcp_server/pkg/logger"
 )
 
 type GetAttackEventsParams struct {

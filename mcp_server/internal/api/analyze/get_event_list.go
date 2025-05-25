@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/chaitin/SafeLine/mcp_server/internal/api"
+	"github.com/xianfengyuan/SafeLine/mcp_server/internal/api"
 )
 
 type GetEventListRequest struct {

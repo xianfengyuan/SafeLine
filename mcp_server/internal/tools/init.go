@@ -1,9 +1,9 @@
 package tools
 
 import (
-	"github.com/chaitin/SafeLine/mcp_server/internal/tools/analyze"
-	"github.com/chaitin/SafeLine/mcp_server/internal/tools/app"
-	"github.com/chaitin/SafeLine/mcp_server/internal/tools/rule"
+	"github.com/xianfengyuan/SafeLine/mcp_server/internal/tools/analyze"
+	"github.com/xianfengyuan/SafeLine/mcp_server/internal/tools/app"
+	"github.com/xianfengyuan/SafeLine/mcp_server/internal/tools/rule"
 )
 
 func init() {

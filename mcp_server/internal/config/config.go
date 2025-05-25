@@ -4,7 +4,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/chaitin/SafeLine/mcp_server/pkg/errors"
+	"github.com/xianfengyuan/SafeLine/mcp_server/pkg/errors"
 	"gopkg.in/yaml.v3"
 )
 
